@@ -1,0 +1,26 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cabeza redonda estilo Baymax -->
+  <circle cx="50" cy="50" r="35" fill="#667eea" opacity="0.2"/>
+  <circle cx="50" cy="50" r="32" fill="white" stroke="#667eea" stroke-width="2"/>
+
+  <!-- Ojos amigables -->
+  <ellipse cx="38" cy="45" rx="3" ry="5" fill="#667eea">
+    <animate attributeName="ry" values="5;0.5;5" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="62" cy="45" rx="3" ry="5" fill="#667eea">
+    <animate attributeName="ry" values="5;0.5;5" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Sonrisa amigable -->
+  <path d="M 35 58 Q 50 68 65 58" stroke="#667eea" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Mejillas sonrojadas -->
+  <circle cx="30" cy="55" r="4" fill="#f093fb" opacity="0.4"/>
+  <circle cx="70" cy="55" r="4" fill="#f093fb" opacity="0.4"/>
+
+  <!-- Brillo en la cabeza -->
+  <ellipse cx="42" cy="35" rx="8" ry="6" fill="white" opacity="0.6"/>
+
+  <!-- Cuerpo simple -->
+  <rect x="40" y="80" width="20" height="8" rx="4" fill="#667eea" opacity="0.3"/>
+</svg>
